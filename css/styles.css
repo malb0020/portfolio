@@ -1,3 +1,12 @@
 .Logo {
     max-width: 90px;
 }
+
+.nav-item{
+    font-size: 32px;
+    font-family: 'Kaisei Opti';
+}
+
+.nav-item:not(:last-child) {
+    padding-right: 100px;
+}
