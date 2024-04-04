@@ -1,12 +1,40 @@
-.Logo {
-    max-width: 90px;
+body {
+    background-color: #000000;
+   
+  }
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    
+  }
+
+
+
+.container {
+    height: 1024px;
+    
+    
 }
 
-.nav-item{
-    font-size: 32px;
+
+
+.mb-3 input {
+    background-color: #BBD3E8;
+    border-radius: 20px;
+    width: 352px;
+    height: 73px;
+    font-size:24px ;
     font-family: 'Kaisei Opti';
 }
 
-.nav-item:not(:last-child) {
-    padding-right: 100px;
+.Discover {
+    background-color: #3E4F59;
+    color: #BBD3E8;
+    border-radius: 30px;
+    width: 185px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Kaisei Opti';
 }
+

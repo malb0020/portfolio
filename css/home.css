@@ -1,0 +1,20 @@
+.Logo {
+    max-width: 90px;
+}
+
+.nav-item{
+    font-size: 32px;
+    font-family: 'Kaisei Opti';
+}
+
+.nav-item:not(:last-child) {
+    padding-right: 100px;
+}
+
+.foot {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+    width: 100%;
+  }
