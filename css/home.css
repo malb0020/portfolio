@@ -1,3 +1,5 @@
+
+
 .Logo {
     max-width: 90px;
 }
@@ -15,11 +17,53 @@
     background-color: #f8f9fa;
     padding: 10px 0;
     text-align: center;
-    margin-top: auto; /* Push the footer to the bottom */
+    margin-top: auto; 
     width: 100%;
   }
 
-  body {
-    background-image:url("/images/mountainsunwide.png") ;
+  .back {
+    background-image:url("/images/mountainsunbg.png") ;
     background-repeat: no-repeat;
+    height: 1024px;
+    
+    
+  }
+
+  .self {
+    width: 380px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    transform: translate(800px ,0px);
+    
+    
+    
+  }
+
+  .display {  display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 340px 340px;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Videography Photography UX-Design"
+      "Graphic-Design Digital-Art Web-Development";
+  }
+  
+  .Videography { grid-area: Videography; }
+  
+  .Photography { grid-area: Photography; }
+  
+  .UX-Design { grid-area: UX-Design; }
+  
+  .Graphic-Design { grid-area: Graphic-Design; }
+  
+  .Digital-Art { grid-area: Digital-Art; }
+  
+  .Web-Development { grid-area: Web-Development; }
+  
+  .display img {
+    width: 350px;
+    height: 340px;
   }
