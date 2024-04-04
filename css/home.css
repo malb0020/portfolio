@@ -18,3 +18,8 @@
     margin-top: auto; /* Push the footer to the bottom */
     width: 100%;
   }
+
+  body {
+    background-image:url("/images/mountainsunwide.png") ;
+    background-repeat: no-repeat;
+  }

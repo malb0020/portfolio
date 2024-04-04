@@ -1,12 +1,23 @@
-body {
-    background-color: #000000;
-   
-  }
+.shutter {
+    border-radius:300px;
+   z-index: -1;
+    
+}
+.container {
+    position:relative;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+
   .login-container {
     max-width: 400px;
     margin: 100px auto;
     padding: 20px;
-    
+    z-index: 1;
+   float: initial;
+   transform: translate(0px, -500px);
   }
 
 
