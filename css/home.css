@@ -51,6 +51,7 @@ body {
 .second {
   background-color: #331924;
   color: whitesmoke;
+  padding-bottom: 75px;
 }
 
 .second h2,p {
@@ -116,12 +117,60 @@ body {
   transform: scale(1.3);
 }
 
-/* Footer styles */
-footer {
-  background-color: #331924;
-  padding-top: 100px;
+/* Styling for footer paragraph */
+footer p {
+  background-color: #0D1218;
+  padding-top: 50px;
   text-align: center;
   margin-top: auto;
   width: 100%;
   color: whitesmoke;
+}
+
+/* Styling for social links container */
+.social-links {
+  text-align: center;
+}
+
+/* Styling for social links */
+.social-link {
+  display: flex;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styling for social link icon */
+.social-link i {
+  margin-right: 5px;
+}
+
+/* Styling for Facebook */
+.facebook {
+  color: #3b5998;
+}
+
+/* Styling for Twitter */
+.twitter {
+  color: #1da1f2;
+}
+
+/* Styling for Instagram */
+.instagram {
+  color: #c13584;
+}
+
+/* Styling for LinkedIn */
+.linkedin {
+  color: #0077b5;
+}
+
+/* Styling for YouTube */
+.youtube {
+  color: #ff0000;
+}
+
+/* Styling for container links */
+.containerlinks {
+  background-color: #0D1218;
+  padding: 0;
 }
