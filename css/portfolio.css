@@ -1,49 +1,53 @@
+/* Font family for the entire body */
 body {
   font-family: 'kaisei opti';
 }
-
-
 
 /* Navbar styles */
 .navbar {
   background-color: #787B8D;
 }
 
+/* Logo styling */
 .Logo {
   max-width: 90px;
   transition: all 0.2s ease-in-out;
   opacity: 0.5;
-  box-shadow: 
-      5px 5px 0px 0px #0D0D0D, 
-      7px 7px 0px 0px #262626;
+  box-shadow: 5px 5px 0px 0px #0D0D0D, 7px 7px 0px 0px #262626;
   border-radius: 50px;
 }
 
+/* Logo hover effect */
 .Logo:hover {
   transform: rotateZ(-30deg);
 }
 
+/* Styling for navbar items */
 .nav-item {
   font-size: 32px;
   font-family: 'Kaisei Opti';
 }
 
+/* Margin for navbar items except the last one */
 .nav-item:not(:last-child) {
   padding-right: 100px;
 }
 
+/* Navbar item hover effect */
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #E68A00 ;
+  color: #E68A00;
   box-shadow: 5px 5px #80002D, 6px 6px #80002D, 7px 7px #80002D;
   transform: translateX(-3px);
   border-radius: 50px;
-  background-color: #202D40 ;
+  background-color: #202D40;
 }
 
+/* Navbar item transition effect */
 .navbar-dark .navbar-nav .nav-link {
   transition: all 0.2s ease-in-out;
 }
 
+/* Styling for text overlay */
 .text-overlay {
   position: absolute;
   top: 20%;
@@ -55,20 +59,23 @@ body {
   color: whitesmoke;
 }
 
+/* Styling for text overlay heading */
 .text-overlay h2 {
   font-size: 64px;
 }
 
+/* Styling for text overlay paragraph */
 .text-overlay p {
   font-size: 16px;
 }
 
-
+/* Styling for background image */
 .sunbg {
   max-width: 100%;
   text-align: center;
 }
 
+/* Styling for form container */
 .form-container {
   max-width: 800px;
   margin: auto;
@@ -82,6 +89,7 @@ body {
   font-family: 'kaisei opti';
 }
 
+/* Styling for question box */
 .question-box {
   background-color: #F7E7CE;
   padding: 20px;
@@ -90,18 +98,22 @@ body {
   text-align: center;
 }
 
+/* Styling for form container div */
 .container div {
   padding: 20px;
 }
 
+/* Styling for form input fields */
 .container input {
   background-color: #F7E7CE;
 }
 
+/* Styling for form textarea */
 .container textarea {
   background-color: #F7E7CE;
 }
 
+/* Styling for form button */
 .container button {
   width: 100%;
   height: 60px;
@@ -112,17 +124,20 @@ body {
   border-color: #80002D;
 }
 
+/* Form button hover effect */
 .container button:hover {
   background-color: #80002D;
   color: whitesmoke;
   border-color: whitesmoke;
 }
 
+/* Styling for main section */
 main {
   background-color: #331924;
   margin: 0;
 }
 
+/* Styling for display grid */
 .display {  
   display: grid;
   grid-template-columns: 330px 330px 330px;
@@ -134,24 +149,39 @@ main {
     "Website-Support Client-Support QnA"
     "Pricing Collaboration Sponsors"
     "Commissions Just-want-to-chat Recommendations";
-    width: 100%;
-    padding: 20px;
-    justify-content: center;
-    
-    
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
 }
 
+/* Styling for website support */
 .Website-Support   {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Website-Support; background-color: #202D40; }
+
+/* Styling for client support */
 .Client-Support    {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Client-Support; background-color: #202D40; }
+
+/* Styling for Q&A */
 .QnA               {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: QnA; background-color: #202D40; }
+
+/* Styling for pricing */
 .Pricing           {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Pricing; background-color: #202D40; }
+
+/* Styling for collaboration */
 .Collaboration     {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Collaboration; background-color: #202D40; }
+
+/* Styling for sponsors */
 .Sponsors          {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Sponsors; background-color: #202D40; }
+
+/* Styling for commissions */
 .Commissions       {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Commissions; background-color: #202D40; }
+
+/* Styling for just want to chat */
 .Just-want-to-chat {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Just-want-to-chat; background-color: #202D40; }
+
+/* Styling for recommendations */
 .Recommendations   {display:flex; justify-content:center;font-size: 36px; font-family: 'kaisei opti';color: whitesmoke; border-radius: 20px; grid-area: Recommendations; background-color: #202D40; }
 
-
+/* Styling for why section */
 .why {
   display: flex;
   justify-content: center;
@@ -160,7 +190,7 @@ main {
   font-family: 'kaisei opti';
 }
 
-
+/* Styling for footer paragraph */
 footer p {
   background-color: #0D1218;
   padding-top: 50px;
@@ -170,42 +200,50 @@ footer p {
   color: whitesmoke;
 }
 
+/* Styling for social links container */
 .social-links {
   text-align: center;
 }
 
+/* Styling for social links */
 .social-link {
   display: flex;
   font-size: 24px;
   color: #333;
 }
 
+/* Styling for social link icon */
 .social-link i {
   margin-right: 5px;
 }
 
+/* Styling for Facebook */
 .facebook {
   color: #3b5998;
 }
 
+/* Styling for Twitter */
 .twitter {
   color: #1da1f2;
 }
 
+/* Styling for Instagram */
 .instagram {
   color: #c13584;
 }
 
+/* Styling for LinkedIn */
 .linkedin {
   color: #0077b5;
 }
 
+/* Styling for YouTube */
 .youtube {
   color: #ff0000;
 }
 
+/* Styling for container links */
 .containerlinks {
   background-color: #0D1218;
   padding: 0;
 }
-
