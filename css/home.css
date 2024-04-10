@@ -13,6 +13,12 @@
     padding-right: 100px;
 }
 
+.back {
+  
+}
+
+
+
 .foot {
     background-color: #f8f9fa;
     padding: 10px 0;
@@ -21,14 +27,7 @@
     width: 100%;
   }
 
-  .back {
-    background-image:url("/images/mountainsunbg.png") ;
-    background-repeat: no-repeat;
-    height: 1024px;
-    
-    
-  }
-
+ 
   .self {
     width: 380px;
     padding: 0;

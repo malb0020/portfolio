@@ -1,3 +1,32 @@
+.Logo {
+    max-width: 90px;
+}
+
+.nav-item{
+    font-size: 32px;
+    font-family: 'Kaisei Opti';
+}
+
+.nav-item:not(:last-child) {
+    padding-right: 100px;
+}
+
+.foot {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto; 
+    width: 100%;
+  }
+
+  .back {
+    background-image:url("/images/mountainsunbg.png") ;
+    background-repeat: no-repeat;
+    height: 1024px;
+    
+    
+  }
+
 /* Add your custom styles here */
 .footer {
     position: fixed;
