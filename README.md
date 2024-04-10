@@ -15,7 +15,7 @@ https://github.com/oliver-gomes/csswand (github link)
 https://www.csswand.dev (front page easy access code)
 
 Socializer CSS Library (vaakash on git hub)
-https://cdn.jsdelivr.net/gh/vaakash/socializer@master/css/socializer.min.css">
+https://github.com/vaakash/socializer
 
 Awesome Fonts Stylesheet
-https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+https://fontawesome.com
