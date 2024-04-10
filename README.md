@@ -13,3 +13,9 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
 CSS Wand (Public CSS Library by oliver-gomes on GitHub)
 https://github.com/oliver-gomes/csswand (github link)
 https://www.csswand.dev (front page easy access code)
+
+Socializer CSS Library (vaakash on git hub)
+https://cdn.jsdelivr.net/gh/vaakash/socializer@master/css/socializer.min.css">
+
+Awesome Fonts Stylesheet
+https://use.fontawesome.com/releases/v6.4.2/css/all.css">
