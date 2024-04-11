@@ -173,3 +173,59 @@ footer p {
   background-color: #0D1218;
   padding: 0;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+    .second {
+      display:flex;
+      flex-direction: column;
+    }
+
+    .display {  
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+          "Videography Photography"
+          "Graphic-Design Digital-Art"
+          "UX-Design Web-Development";
+      background-color: transparent;
+      justify-content: center;
+      padding: 10px;
+      transform: translate(20%, -10%);
+    }
+
+    .display img {
+      scale: 0.5;
+    }
+
+    .second h2 {
+      padding: 5px;
+    }
+
+    .second p {
+      padding: 5px;
+    }
+
+    .text-overlay {
+      transform: translate(-50%, -750%);
+      scale: 0.5;
+    }
+
+
+    body {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+
+  }
+
+  

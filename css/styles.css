@@ -67,3 +67,52 @@ body {
 .shutter {
   transition: 0.3s ease-in;
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  
+    body {
+      display: flex;
+      flex-direction: column;
+      max-width: 100vh;
+      
+    }
+    .shuttermove {
+      scale: 0.65;
+      transform: translateX(-120px);
+    }
+
+
+    
+
+    footer {
+      
+      margin-top: auto;
+    }
+}
+
+/* iPhones in landscape mode */
+@media only screen 
+  and (min-device-width: 812px) 
+  and (max-device-width: 375px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    body {
+      display: flex;
+      flex-direction: row;
+      max-width: 100vh;
+      
+    }
+    .shuttermove {
+      scale: 0.65;
+      transform: translateX(-120px);
+    }
+
+
+    footer {
+      
+      margin-top: auto;
+    }
+}
