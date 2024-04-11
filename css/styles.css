@@ -54,3 +54,16 @@ body {
     font-family: 'Kaisei Opti';
 }
 
+.Discover:hover {
+  background-color: #80002D;
+  scale: 1.3;
+}
+
+.shutter:hover {
+  filter: blur(5px);
+
+}
+
+.shutter {
+  transition: 0.3s ease-in;
+}
